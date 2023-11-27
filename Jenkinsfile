@@ -3,7 +3,7 @@ pipeline{
   stages {
     stage("Init"){
       steps{
-        bat 'echo Hola'
+        bat 'echo Hola develop'
       }
     }
     stage("Build"){
